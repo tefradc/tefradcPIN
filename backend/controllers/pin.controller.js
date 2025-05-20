@@ -32,4 +32,6 @@ export const getPin = async (req, res) => {
     "user",
     "username img displayName"
   );
+
+  res.status(200).json(pin);
 };
